@@ -1,0 +1,57 @@
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: 200ms ease-in-out width;
+  width: 0px;
+  visibility: hidden;
+}
+
+li {
+  padding: 15px 20px;
+  width: 20%;
+  border: solid 1.5px black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: rgb(219, 219, 0);
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+.showMenu {
+  visibility: visible;
+  width: 600px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
